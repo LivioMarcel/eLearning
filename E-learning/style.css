@@ -1,0 +1,136 @@
+/* Define a margem e a cor de fundo para o corpo da página */
+body {
+    margin: 0;
+    background-color: #385184;
+}
+
+/* Estilos para a seção de cabeçalho */
+.header {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+/* Estilos para outra seção de cabeçalho */
+.header2 {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+/* Estilos para o título */
+.title {
+    width: 15%;
+    margin-left: 10px;
+    align-self: center;
+    display: flex;
+}
+
+/* Estilos para a seção de busca */
+.buscar {
+    margin-right: 10px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    justify-content: flex-start;
+    justify-self: center;
+}
+
+/* Estilos para o campo de entrada de texto */
+.input {
+    display: flex;
+    align-self: center;
+    justify-content: start;
+    justify-self: flex-start;
+}
+
+/* Estilos para as caixas principais */
+.box {
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    background-color: gray;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+}
+
+/* Estilos para o intervalo entre caixas */
+.intervalo{
+    height: 20px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Estilos para o item1 */
+.item1 {
+    width: 40%;
+    height: 50px;
+    margin-left: 5%;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 50px;
+    align-items: center;
+}
+
+/* Estilos para o item2 */
+.item2 {
+    width: 40%;
+    height: 50px;
+    margin-right: 5%;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 50px;
+    align-items: center;
+}
+
+/* Estilos para as matérias */
+.materia1 {
+    width: 40%;
+    height: 50px;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para as imagens das matérias */
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* Estilos para o conteúdo das matérias */
+.materia-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Estilos para a seção de vídeos */
+.video {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+/* Estilos para as explicações */
+.explicacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
